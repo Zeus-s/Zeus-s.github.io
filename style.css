@@ -153,6 +153,10 @@ header.sticky ul li a {
     flex-direction: row;
 }
 
+.project .content a {
+    text-decoration: none;
+}
+
 .project .content .contentx {
     padding: 30px 50px;
     color: #000000;
@@ -162,6 +166,7 @@ header.sticky ul li a {
     box-shadow: 5px 8px 8px #c2c2c2;
     transition: 0.5s;
     font-size: 15px;
+    cursor: pointer;
 }
 .project .content .contentx:hover {
     background: #b8b8b8;
