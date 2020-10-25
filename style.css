@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+*
+{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    scroll-behavior: smooth;
+}
+
+section
+{
+    padding : 100px
+}
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background :url(banner.jpg);
+    background-position : right;
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner h2
+{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.banner h2 span
+{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+
+.btn {
+    position: relative;
+    font-weight: 600;
+    background: #fff;
+    color: #000000;
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 2px;
+    margin-left: 8px;
+    
+}
+
+.btn:hover {
+    background-color: #161616; /* Green */
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header.sticky {
+    background-color: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+header .logo {
+    color: #fff;
+    margin-left:2px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+header.sticky .logo {
+ color: #111111;   
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px;
+    color:#fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+}
+header.sticky ul li a {
+    color: #111111;   
+}
+
+.project {
+    position: relative;
+}
+
+.heading {
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 40px;
+    color: #111111;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    background: white;
+}
+
+.project .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.project .content .contentx {
+    padding: 30px 50px;
+    color: #000000;
+    max-width: 300px;
+    margin: 32px;
+    text-align: center;
+    box-shadow: 5px 8px 8px #c2c2c2;
+    transition: 0.5s;
+    font-size: 15px;
+}
+.project .content .contentx:hover {
+    background: #b8b8b8;
+    color: #fff;
+    font-weight: 400;
+    filter: invert(1);
+}
+
+.project .content .contentx img {
+    max-width: 80px;
+    filter: invert(0);
+}
+
+.project .content .contentx h2 {
+    font-size: 20px;
+}
+.contacts {
+    background-color: black;
+    min-height: 100vh;
+    padding: 30vh 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts .heading {
+    color: #eeeeee;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 3em;
+    font-weight: 700;
+}
+
+.contacts .card {
+    background-color: #eeeeee;
+    padding: 30px 50px;
+    border-radius: 15px;
+}
+
+.contacts .card .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    text-decoration: none;
+    font-size: 0.999em;
+}
+
+.contacts .card a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: unset;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contacts .card a:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transform: scale(1.1);
+}
+
+
+.contacts .card .contact img {
+    max-height: 1em;
+    margin-right: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+    scroll-behavior: smooth;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+    scroll-behavior: smooth;
+}
+
+/*Responsive*/
+@media (max-width: 991px)
+{
+    header, 
+    header .sticky
+    {
+        padding: 20px 50px;
+    }
+    section {
+        padding : 100px 50px;
+    }
+
+    .menu {
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        display: block;
+        padding: 100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        transition: 0.5s;
+        z-index: 999;
+        border-top: 1px solid rgba(0,0,0,0.2);
+    }
+    .menu.active {
+        left: 0;
+    }
+    header ul li a {
+        color: #000000;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .toggle {
+        width: 40px;
+        height: 40px;
+        background: url(menu.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+    }
+    .toggle.active {
+        background: url(close.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 25px;
+        cursor: pointer;
+    }
+    header.sticky .toggle {
+        filter: invert(1);
+    }
+    .banner {
+        padding : 150px 50px 100px;
+    }
+    .banner h2 {
+        font-size: 2em;
+    }
+    .btn {
+        margin-top: 30px;
+        padding: 10px 10px;
+        font-size: 0.1em;
+        font-weight: 800;
+        margin-left: 5px;
+    }
+
+    .project .content .contentx {
+        margin: 10px;
+    }
+
+    .contacts .card {
+        padding: 10px 20px;
+    }
+
+    .contacts .heading {
+        font-size: 13px;
+    }
+
+    .contacts .card .contact {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    .contacts .card a {
+        padding: 5px 10px;
+        font-size: 0.5em;
+    }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+}
