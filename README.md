@@ -1,4 +1,4 @@
-## You can visit it on ![Zeus-s][2.2][2].
+## You can visit it on [![Zeus-s][2.2]][2].
 [2.2]: logo.png
 [2]: Zeus-s.github.io
 
