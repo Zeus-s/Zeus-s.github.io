@@ -157,6 +157,10 @@ header.sticky ul li a {
     text-decoration: none;
 }
 
+.project .content .linking {
+    text-decoration: none;
+}
+
 .project .content .contentx {
     padding: 30px 50px;
     color: #000000;
