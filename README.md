@@ -1,8 +1,6 @@
-### You can visit it on [![Zeus-s][1.1]][1]. 
-[1.1]:https://imgur.com/a/Zbaf3py
-[1] : Zeus-s.github.io 
+### You can visit it on ![Zeus-s](https://github.com/Zeus-s/Zeus-s.github.io/blob/master/logo.PNG?raw=true). 
 
-My personal website but hasn't deployed yet. 
+My personal website that hasn't deployed yet. 
 
 Credits:
 icon : www.flaticons.com
