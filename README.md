@@ -1,4 +1,4 @@
-### You can visit it on ![Zeus-s](https://github.com/Zeus-s/Zeus-s.github.io/blob/master/logo.PNG?raw=true). 
+### You can visit it on ![Zeus-s](logo.png). 
 
 My personal website that hasn't deployed yet. 
 
