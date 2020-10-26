@@ -18,7 +18,7 @@ html,body {
     width: 100%;
     height: 100%;
     position: fixed;
-    z-index: 1000;
+    z-index: 1;
     top: 0;
     left: 0
 }
@@ -63,12 +63,14 @@ html,body {
     letter-spacing: 2px;
     border-radius: 2px;
     margin-left: 8px;
+    z-index: 40;
     
 }
 
 .btn:hover {
     background-color: #161616; /* Green */
     color: white;
+    z-index: 40;
 }
 
 header {
@@ -81,12 +83,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-decoration: none;
     transition: 0.5s;
 }
 
 header.sticky {
     background-color: #fff;
     padding: 20px 100px;
+    text-decoration: none;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
@@ -102,6 +106,7 @@ header .logo {
 
 header.sticky .logo {
  color: #111111;   
+ text-decoration: none;
 }
 
 header ul {
@@ -163,6 +168,7 @@ header.sticky ul li a {
 
 .project .content .linking {
     text-decoration: none;
+    z-index: 40;
 }
 
 .project .content .contentx {
@@ -175,12 +181,14 @@ header.sticky ul li a {
     transition: 0.5s;
     font-size: 15px;
     cursor: pointer;
+    z-index: 40;
 }
 .project .content .contentx:hover {
     background: #b8b8b8;
     color: #fff;
     font-weight: 400;
     filter: invert(1);
+    z-index: 40;
 }
 
 .project .content .contentx img {
@@ -212,6 +220,7 @@ header.sticky ul li a {
     background-color: #eeeeee;
     padding: 30px 50px;
     border-radius: 15px;
+    z-index: 40;
 }
 
 .contacts .card .contact {
@@ -232,6 +241,7 @@ header.sticky ul li a {
     color: unset;
     cursor: pointer;
     transition: 0.2s;
+    z-index: 40;
 }
 
 .contacts .card a:hover {
@@ -240,6 +250,7 @@ header.sticky ul li a {
     text-decoration-style: initial;
     text-decoration-color: initial;
     transform: scale(1.1);
+    z-index: 40;
 }
 
 
