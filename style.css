@@ -336,13 +336,13 @@ header.sticky ul li a {
         padding : 150px 50px 100px;
     }
     .banner h2 {
-        font-size: 2em;
+        font-size: 3em;
     }
     .btn {
         margin-top: 30px;
         padding: 10px 10px;
-        font-size: 0.1em;
-        font-weight: 800;
+        font-size: 0.6em;
+        font-weight: 700;
         margin-left: 5px;
     }
 
@@ -351,21 +351,21 @@ header.sticky ul li a {
     }
 
     .contacts .card {
-        padding: 10px 20px;
+        padding: 10px 25px;
     }
 
     .contacts .heading {
-        font-size: 13px;
+        font-size: 18px;
     }
 
     .contacts .card .contact {
-        padding: 5px 10px;
-        font-size: 0.8em;
+        padding: 5px 15px;
+        font-size: 1.1em;
     }
 
     .contacts .card a {
         padding: 5px 10px;
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
 @media screen and (prefers-reduced-motion: reduce) {
